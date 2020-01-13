@@ -111,12 +111,14 @@ nav h1 {
     left: 55%;
     transform: translateX(-50%);
     transition: 200ms;
+    outline: 0;
 }
 
 .main-content button:hover {
     background-color: #00C4B4;
     color: white;
     border: none;
+    outline: 0;
 }
 
 .bubble1 {
