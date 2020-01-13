@@ -1,0 +1,77 @@
+.background-color {
+    background-color: #E8EAF6;
+}
+
+section.why-tutedude {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    z-index: 0;
+    padding: 8rem 0;
+}
+
+.why-tutedude .why-us-image img {
+    width: 70%;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+.why-us-content {
+    padding-left: 10%;
+}
+
+.why-us-content h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+    color: #00C4B4;
+    margin-bottom: 1rem;
+}
+
+.item {
+    display: flex;
+    text-align: left;
+}
+
+.item .index {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.7rem;
+    padding-top: 5px;
+    background-color: #00C4B4;
+    min-width: 50px;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+.item h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.item p {
+    font-size: .9rem;
+    font-weight: normal;
+    text-align: left;
+}
+
+footer {
+    padding-top: 3rem;
+    color: black;
+}
+
+footer div,
+footer h1,
+footer h5,
+footer a,
+footer p,
+footer li a {
+    color: white !important;
+}
+
+footer.page-footer.indigo {
+    background-color: #F48FB1 !important;
+}
